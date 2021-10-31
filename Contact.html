@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>DropOfPrana Contact</title>
+    <style>
+        nav{
+            height: 50px;
+        }
+        #prana{
+            font-size: 20px;
+        }
+        a{
+            color: rgb(114, 50, 218) !important;
+        }
+        .active{
+            background-color: rgb(192, 189, 189) !important;
+            color: rgb(98, 0, 255) !important;
+        }
+        .nactive{
+            color: rgb(114, 50, 218) !important;
+        }
+        .text{
+            background-color: whitesmoke;
+            padding: 40px;
+        }
+        h2{
+            font-size: 30px !important;
+            font-family: monospace !important;
+        }
+        p{
+            font-size: 22px !important;
+            font-family: monospace !important;
+        }
+        form{
+            width: 700px;
+            height: 610px;
+            background-color: rgba(34, 30, 30, 0.5);
+            box-shadow: 0px 0px 20px rgb(114, 50, 218);
+            padding: 20px;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+        #format{
+            width: 325px;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid rgb(114, 50, 218);
+        }
+        #login{
+            background-color: rgb(114, 50, 218);
+            border: 10px outset rgb(114, 50, 218);
+            border-radius: 20px;
+            color: whitesmoke;
+            font-size: 18px;
+            font-weight: bold;                 
+        }
+        #login:hover{
+          transform: scale(1.01);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav bg-light justify-content-center">
+        <a class="nav-link" id="prana" href="Home.html">Drop Of Prana</a>
+        <a class="nav-link nactive" href="Home.html">Home</a>
+        <a class="nav-link nactive" href="ToDo.html">What To Do</a>
+        <a class="nav-link active" href="Contact.html">Contact</a>
+        <a class="nav-link nactive" href="Donate.html">Donate</a>
+    </nav>
+    <div class="text" style="height: 1500px;">
+        <h2><b><u>Do you wish to contact us?</u></b></h2><br>
+        <p>You are eligible to use our free services if you are</p><br>
+            <ul>
+                <li>Situated in a natural disaster prone area</li>
+                <li>Or within a 2km radius of a location of a natural hazard <br>
+                    Note: Over 55s are eligibke to a 3km radius.</li>
+                <li>Have a family of at least 2 members within the area, of at least one is over 20</li>
+                <li>All of the above must apply to you</li>
+            </ul><br>
+        <p>, for any queries please call -----------. Included in this free service will be access to emergency funds, shelters, necessities. This means that if you lose the property that 
+            you reside in, we will provide you with atemporary new one. If your income or your overall finacial situation is heavily damaged by a Natural Disaster, then we are able to 
+            provide you with the necessary funds. And if your frequently used possessions area lost or rendered unfit for use, we will replace all those that are absolutely necessary 
+            for you.
+        </p><br><br><br>
+        <form action="DM Home.html" target="_blank">
+            <input type="email" name="" id="format" placeholder=" Your email address" required target="_blank">
+            <input type="text" name="" id="format" placeholder="Phone number" minlength="11" required target="_blank"><br><br>
+            <input type="text" name="" id="format" placeholder="First Name"  required target="_blank">
+            <input type="text" name="" id="format" placeholder="Surname"  required target="_blank"><br><br>
+            <label for="">How many people in your family</label>
+            <label for="">2</label>
+            <input type="radio" name="age" id="">
+            <label for="">| | 3:</label>
+            <input type="radio" name="age" id="">
+            <label for="">| | 4:</label>
+            <input type="radio" name="age" id="">
+            <label for="">| | 5:</label>
+            <input type="radio" name="age" id="">
+            <label for="">| | 6:</label>
+            <input type="radio" name="age" id="">
+            <label for="">| | more:</label>
+            <input type="radio" name="age" id=""><br><br>
+            <input type="select" name="" id="format" placeholder="Yearly Revenue in British Pounds"  required target="_blank">
+            <input type="select" name="" id="format" placeholder="Ages in your family e.g. 25, 22, 6, 2"  required target="_blank"><br><br>
+            <label for="">Select the Natural Disaster/Hazard that you are affected by, or situated near:</label>
+            <select name="" id="" required>
+                <option value="">A Volcano</option>
+                <option value="">Tsunami</option>
+                <option value="">Earthquake</option>
+                <option value="">Hurricane</option>
+                <option value="">Cyclone</option>
+                <option value="">Drought</option>
+                <option value="">Floods</option>
+                <option value="">Landslides</option>
+                <option value="">Famine</option>
+            </select><br><br>
+            <label for="">Select what services you would like to access, please only choose those you need:</label>
+            <br><select name="" id="" required>
+                <option value="">All services</option>
+                <option value="">Only Funds</option>
+                <option value="">Only Shelter</option>
+                <option value="">Only Necessities</option>
+                <option value="">Funds And Shelter</option>
+                <option value="">Funds and Necessities</option>
+                <option value="">Shelter And Necessities</option>
+            </select><br><br>
+            <input type="text" name="" id="format" placeholder="Coordinates  e.g.51.507351, -0.127758" required><br><br>
+            <button href="DM Home.html" id="login">Send</button>
+        </form><br><br><br>
+    </div>
+</body>
+</html>

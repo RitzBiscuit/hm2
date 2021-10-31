@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>DropOfPrana Donate</title>
+    <style>
+        .parallax {
+          background-image: url("https://www.thoughtco.com/thmb/2h-RY3CpPBzFGICSfLEYnt4HdRE=/2122x1415/filters:fill(auto,1)/Disaster-Relief-472133675-56a148ea5f9b58b7d0bdd1f7.jpg");
+          size: 90%;
+          min-height: 785px;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        nav{
+            height: 50px;
+        }
+        #prana{
+            font-size: 20px;
+        }
+        a{
+            color: rgb(114, 50, 218) !important;
+        }
+        .active{
+            background-color: rgb(192, 189, 189) !important;
+            color: rgb(98, 0, 255) !important;
+        }
+        .nactive{
+            color: rgb(114, 50, 218) !important;
+        }
+        .text{
+            background-color: whitesmoke;
+            padding: 40px;
+        }
+        h2{
+            font-size: 30px !important;
+            font-family: monospace !important;
+        }
+        p{
+            font-size: 22px !important;
+            font-family: monospace !important;
+        }
+        form{
+            width: 700px;
+            height: 440px;
+            background-color: rgba(34, 30, 30, 0.5);
+            box-shadow: 0px 0px 20px rgb(114, 50, 218);
+            padding: 20px;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+        #format{
+            width: 325px;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid rgb(114, 50, 218);
+        }
+        #message{
+            width: 654px;
+            height: 90px;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid rgb(114, 50, 218);
+        }
+        #login{
+            background-color: rgb(114, 50, 218);
+            border: 10px outset rgb(114, 50, 218);
+            border-radius: 20px;
+            color: whitesmoke;
+            font-size: 18px;
+            font-weight: bold;                 
+        }
+        #login:hover{
+          transform: scale(1.01);
+        }
+        </style>
+</head>
+<body>
+    <nav class="nav bg-light justify-content-center">
+        <a class="nav-link" id="prana" href="Home.html">Drop Of Prana</a>
+        <a class="nav-link nactive" href="Home.html">Home</a>
+        <a class="nav-link nactive" href="ToDo.html">What To Do</a>
+        <a class="nav-link nactive" href="Contact.html">Contact</a>
+        <a class="nav-link active" href="Donate.html">Donate</a>
+    </nav>
+    <div class="parallax">
+        <div class="random">
+
+        </div>
+    </div>
+    <div class="text" style="height: 700px;">
+        <h2><b><u>Donate to the Cause</u></b></h2>
+        <p>If you want top help us save the millions of people struggling due to natrural hazards then donate to Drop of Prana. You cause give us any amout you are able/willing to gat 
+            and can also select one-time donations as well as yearly and monthly.</p>
+
+        <form action="">
+            <input type="email" name="" id="format" placeholder="Email Address" required >
+            <input type="text" name="" id="format" placeholder="Phone Number" required><br><br>
+            <input type="text" name="" id="message" placeholder="Give a Message to those you are helping"><br><br>
+            <label for="">Choose how many times you would like to donate</label>
+            <select name="" id="">
+                <option value="">One-Time</option>
+                <option value="">Monthly</option>
+                <option value="">Yearly</option>
+            </select>
+            <input type="text" name="" id="format" placeholder="Your amount in British Pounds">
+            <br><br><label for="">Or! Choose one of our amazing plans instead</label>
+            <select name="" id="">
+                <option value="">£2 a Month</option>
+                <option value="">£5 a Month</option>
+                <option value="">£10 a Month</option>
+                <option value="">£20 a Month</option>
+                <option value="">£20 a Year</option>
+                <option value="">£30 a Year</option>
+                <option value="">£40 a Year</option>
+                <option value="">£50 a Year</option>
+            </select><br><br>
+            <button id="login">Donate</button>
+        </form><br><br><br>
+    </div>
+</body>
+</html>

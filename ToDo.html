@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>DropOfPrana What To Do</title>
+    <style>
+        body{
+            background-color: rgb(23, 25, 26);
+        }
+        nav{
+            height: 50px;
+        }
+        #prana{
+            font-size: 20px;
+        }
+        a{
+            color: rgb(114, 50, 218) !important;
+        }
+        .active{
+            background-color: rgb(192, 189, 189) !important;
+            color: rgb(98, 0, 255) !important;
+        }
+        .nactive{
+            color: rgb(114, 50, 218) !important;
+        }
+        .text{
+            background-color: whitesmoke;
+            padding: 40px;
+        }
+        h2{
+            font-size: 30px !important;
+            font-family: monospace !important;
+        }
+        p{
+            font-size: 22px !important;
+            font-family: monospace !important;
+        }
+        .container {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "box1 box2 box2 box3"
+            "box1 box7 box7 box3"
+            "box4 box7 box7 box5"
+            "box4 box6 box6 box5"
+            ;
+        }
+        
+        #box1, #box2, #box3, #box4, #box5, #box6, #box7{
+            margin: 10px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        #box1 {
+            background-image: url(https://cdn.dribbble.com/users/207059/screenshots/3084228/landslidedribbble.gif);
+            background-size: 310px 400px;
+            grid-area: box1;
+        }
+        #box1:hover{
+            transform: scale(1.055);
+        } 
+        #box2 {
+            background-image: url("https://media1.tenor.com/images/db507be72e7742b1c236240faa621ff6/tenor.gif?itemid=14780743");
+            background-size: 627px 200px;
+            grid-area: box2;
+        }
+        #box2:hover{
+            transform: scale(1.05);
+        }   
+        #box3 {
+            background-image: url(https://cdn130.picsart.com/280434116011201.gif?c256x256);
+            background-size: 310px 400px;
+            grid-area: box3;
+        }
+        #box3:hover{
+            transform: scale(1.055);
+        } 
+        #box4 {
+            background-image: url(http://www.anthropocenemagazine.org/wp-content/uploads/2018/08/Tsnami.gif);
+            background-size: 310px 400px;
+            grid-area: box4;
+        }
+        #box4:hover{
+            transform: scale(1.055);
+        } 
+        #box5 {
+            background-image: url(https://33.media.tumblr.com/a77dfe7de6ca02653a8e5cb83ef07eda/tumblr_mvd299I3CE1sfksffo1_500.gif);
+            background-size: 310px 400px;
+            grid-area: box5;
+        }
+        #box5:hover{
+            transform: scale(1.055);
+        } 
+        #box6 {
+            background-color: rgb(94, 54, 28);
+            background-image: url(https://webstockreview.net/images/earthquake-clipart-word.gif);
+            background-size: 627px 230px;
+            grid-area: box6;
+        }
+        #box6:hover{
+            transform: scale(1.05);
+        } 
+        #box7 {
+            background-image: url(https://thecolumn.ahacentre.org/wp-content/uploads/2020/10/Image-1-15.jpg);
+            background-size: 627px 430px;
+            grid-area: box7;
+        }
+        #box7:hover{
+            transform: scale(1.05);
+        }
+        </style>
+</head>
+<body>
+    <nav class="nav bg-light justify-content-center">
+        <a class="nav-link" id="prana" href="Home.html">Drop Of Prana</a>
+        <a class="nav-link nactive" href="Home.html">Home</a>
+        <a class="nav-link active" href="ToDo.html">What To Do</a>
+        <a class="nav-link nactive" href="Contact.html">Contact</a>
+        <a class="nav-link nactive" href="Donate.html">Donate</a>
+    </nav>
+    <div class="container container-fluid">
+        <a href="Landslide.html" id="box1"></a>
+        <a href="Volcano.html" id="box2"></a>
+        <a href="Hurricane.html" id="box3"></a>
+        <a href="Tsunami.html" id="box4"></a>
+        <a href="Flood.html" id="box5"></a>
+        <a href="Earthquake.html" id="box6"></a>
+        <a href="https://www.ucf.edu/online/leadership-management/news/the-disaster-management-cycle/" id="box7"></a>
+    </div>
+</body>
+</html>
